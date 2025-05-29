@@ -221,8 +221,6 @@ main .container .highlight .projects .project-item a{
 }
 
 footer {
-      width: 100%;
-      max-width: 1200px;
       padding: 2rem;
       display: flex;
       justify-content: center;
