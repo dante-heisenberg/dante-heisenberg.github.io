@@ -32,9 +32,16 @@ header{
       border-bottom: 2px solid #c4c4c4;
       z-index: -9999px;
 }
+
 header nav {
       display: flex;
       gap: 20px;
+}
+
+header .logo  a h2 {
+      color: whitesmoke;
+      font-weight: 600;
+      text-decoration: none;
 }
 
 header .nav-one a img {
@@ -73,6 +80,7 @@ header .nav-one {
       justify-content: space-between;
 }
 
+
 header .nav-two .social-media{
       display: flex;
       gap: 1rem;
@@ -93,12 +101,10 @@ header .nav-one .nav-links a{
 
 main {
       display: flex;
-      justify-content: center;
-      align-items: center  ;
+
+      padding: 5rem;
 }
 main .container {
-      width: 100%;
-      max-width: 1200px;
       padding: 4rem;
       display: flex ;
       flex-direction: column;
@@ -150,6 +156,7 @@ main .container .about-me div {
       flex-direction: column;
       gap: 1rem;
       box-shadow: 0 0 10px rgba(83, 83, 83, 0.5);
+      border-radius: 20px;
       padding: 2rem;
 }
 
