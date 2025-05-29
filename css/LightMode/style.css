@@ -1,25 +1,25 @@
 *{
       margin: 0;
       padding: 0;
-      color: #c4c4c4;
+      color: #2F4F4F;
       text-decoration: none;
 }
 
 body{
       font-family:  poppins, sans-serif;
       font-size: 14px; 
-      background-color: rgba(0, 0, 0, 0.9);
+      background-color: whitesmoke;
 }
 .active {
-      color: white;
+      color: #1a1a1a;
 }
 .deactive {
-      color: #c4c4c4;
+      color: #2F4F4F;
 }
 
 i {
       font-size: 15px;
-      color: #ffffff;
+      color: #1a1a1a;
 }
 
 header{
@@ -29,7 +29,7 @@ header{
       justify-content: space-between;
       backdrop-filter: blur(45px);
       align-items: center;
-      border-bottom: 2px solid #c4c4c4;
+      border-bottom: 2px solid #202124;
       z-index: -9999px;
 }
 
@@ -39,7 +39,7 @@ header nav {
 }
 
 header .logo  a h2 {
-      color: whitesmoke;
+      color: #1a1a1a;
       font-weight: 600;
       text-decoration: none;
 }
@@ -55,13 +55,13 @@ header .nav-two a img{
 
 header nav div a{
       font-weight: 600;
-      color: #ffffff; 
+      color: #1a1a1a; 
       text-decoration: none;
 }
 
 header .nav-one .nav-links a span:hover{
-      color: #fefefe;
-      border-bottom: 2px solid #fefefe;
+      color: #1a1a1a;
+      border-bottom: 2px solid #1a1a1a;
       padding-bottom: 2px;
       transition: all 0.1s 
 }
@@ -95,13 +95,12 @@ header .nav-one .nav-links a{
       display: flex;
       align-items: center;
       text-decoration: none;
-      color: #c4c4c4;
+      color: #1a1a1a;
       gap: 8px;
 }
 
 main {
       display: flex;
-
       padding: 5rem;
 }
 main .container {
@@ -118,7 +117,7 @@ main .container .bio {
       gap: 0.5rem;
 }
 main .container .bio h1 {
-      color: whitesmoke;
+      color: #2F4F4F;
       font-size: 40px;
       line-height: 1em;
       text-align: center;
@@ -129,17 +128,17 @@ main .container .bio img {
       width: 300px;
       aspect-ratio: 1/1;
       border-radius: 100%;
-      border: 2px solid #fefefe;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      border: 2px solid #2F4F4F;
+      box-shadow: 0 0 10px #1a1a1a;
 }
 main .container .bio p {
       font-size: 15px;
       line-height: 1.5em;
       text-align: center;
-      color: #c4c4c4;
+      color: #1a1a1a;
 }
 main .container .about-me h2 {
-      color: whitesmoke;
+      color: #2F4F4F;
       line-height: 1.2em;
 }
 main .container .about-me {
@@ -155,7 +154,7 @@ main .container .about-me div {
       display: flex;
       flex-direction: column;
       gap: 1rem;
-      box-shadow: 0 0 10px rgba(83, 83, 83, 0.5);
+      box-shadow: 0 0 10px #2F4F4F;
       border-radius: 20px;
       padding: 2rem;
 }
@@ -170,7 +169,7 @@ main .container .highlight {
 }
 
 main .container .highlight .highlight-header h2{
-      color: whitesmoke;
+      color: #2F4F4F;
       font-size: 30px;
       line-height: 1.2em;
 }
@@ -191,13 +190,13 @@ main .container .highlight  .journey .journey-content .content {
       display: flex;
       flex-direction: column;
       padding: 2rem;
-     border: 2px solid #c4c4c4;
+     border: 2px solid #2F4F4F;
       border-radius: 20px;
       text-align: start;
 }
 
 main .container .highlight  .journey .journey-content .content h2 {
-      color: whitesmoke;
+      color: #1a1a1a;
       font-size: 20px;
       line-height: 1.2em;
 }
@@ -212,7 +211,7 @@ main .container .highlight .projects .project-item {
       display: flex;
       flex-direction: column;
       padding: 2rem;
-      border: 2px solid #c4c4c4;
+      border: 2px solid #1a1a1a;
       border-radius: 20px;
       text-align: start;
       gap: 1rem;
@@ -223,16 +222,14 @@ main .container .highlight .projects .project-item img{
 }
 
 main .container .highlight .projects .project-item a{
-      color: violet;
+      color: rgb(47, 196, 255);
       font-weight: 700;
 }
 
-footer {
+footer .footer-content {
       padding: 2rem;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
+      justify-content: space-between;
       gap: 1rem;
       border-top: 2px solid #c4c4c4;
       text-align: center;
